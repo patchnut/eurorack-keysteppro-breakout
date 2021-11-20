@@ -576,11 +576,11 @@ Text GLabel 4700 6050 2    50   Input ~ 0
 ck_rst
 Wire Wire Line
 	4450 6050 4700 6050
-Text GLabel 7150 4300 0    50   Input ~ 0
+Text GLabel 7650 4300 2    50   Input ~ 0
 cv1
-Text GLabel 7150 4400 0    50   Input ~ 0
+Text GLabel 7650 4400 2    50   Input ~ 0
 gt1
-Text GLabel 7150 4500 0    50   Input ~ 0
+Text GLabel 7650 4500 2    50   Input ~ 0
 md1
 $Comp
 L power:GND #PWR016
@@ -593,45 +593,45 @@ F 3 "" H 6750 4700 50  0001 C CNN
 	1    6750 4700
 	1    0    0    -1  
 $EndComp
-Text GLabel 7150 4700 0    50   Input ~ 0
+Text GLabel 7150 4500 0    50   Input ~ 0
 cv2
-Text GLabel 7150 4800 0    50   Input ~ 0
+Text GLabel 7150 4400 0    50   Input ~ 0
 gt2
-Text GLabel 7150 4900 0    50   Input ~ 0
+Text GLabel 7150 4300 0    50   Input ~ 0
 md2
-Text GLabel 7650 4900 2    50   Input ~ 0
+Text GLabel 7150 4900 0    50   Input ~ 0
 cv3
-Text GLabel 7650 4800 2    50   Input ~ 0
+Text GLabel 7150 4800 0    50   Input ~ 0
 gt3
-Text GLabel 7650 4700 2    50   Input ~ 0
+Text GLabel 7150 4700 0    50   Input ~ 0
 md3
-Text GLabel 7650 4500 2    50   Input ~ 0
+Text GLabel 7650 4900 2    50   Input ~ 0
 cv4
-Text GLabel 7650 4400 2    50   Input ~ 0
+Text GLabel 7650 4800 2    50   Input ~ 0
 gt4
-Text GLabel 7650 4300 2    50   Input ~ 0
+Text GLabel 7650 4700 2    50   Input ~ 0
 md4
-Text GLabel 8800 4300 0    50   Input ~ 0
+Text GLabel 8800 4900 0    50   Input ~ 0
 ck_in
-Text GLabel 8800 4500 0    50   Input ~ 0
+Text GLabel 8800 4800 0    50   Input ~ 0
 ck_out
-Text GLabel 8800 4400 0    50   Input ~ 0
+Text GLabel 8800 5000 0    50   Input ~ 0
 ck_rst
-Text GLabel 9300 5000 2    50   Input ~ 0
+Text GLabel 8800 4600 0    50   Input ~ 0
 dr1
-Text GLabel 9300 4800 2    50   Input ~ 0
+Text GLabel 8800 4400 0    50   Input ~ 0
 dr2
-Text GLabel 9300 4600 2    50   Input ~ 0
-dr3
-Text GLabel 9300 4400 2    50   Input ~ 0
-dr4
-Text GLabel 9300 4900 2    50   Input ~ 0
-dr5
-Text GLabel 9300 4700 2    50   Input ~ 0
-dr6
-Text GLabel 9300 4500 2    50   Input ~ 0
-dr7
 Text GLabel 9300 4300 2    50   Input ~ 0
+dr3
+Text GLabel 9300 4500 2    50   Input ~ 0
+dr4
+Text GLabel 8800 4500 0    50   Input ~ 0
+dr5
+Text GLabel 8800 4300 0    50   Input ~ 0
+dr6
+Text GLabel 9300 4400 2    50   Input ~ 0
+dr7
+Text GLabel 9300 4600 2    50   Input ~ 0
 dr8
 $Comp
 L power:GND #PWR017
@@ -682,17 +682,6 @@ Wire Wire Line
 	7650 5000 8050 5000
 Wire Wire Line
 	8050 5000 8050 5100
-$Comp
-L power:GND #PWR024
-U 1 1 61A7AB11
-P 8700 5100
-F 0 "#PWR024" H 8700 4850 50  0001 C CNN
-F 1 "GND" H 8705 4927 50  0000 C CNN
-F 2 "" H 8700 5100 50  0001 C CNN
-F 3 "" H 8700 5100 50  0001 C CNN
-	1    8700 5100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:AudioJack2_SwitchT J2
 U 1 1 61AAFD60
@@ -957,28 +946,19 @@ F 3 "~" H 9000 4600 50  0001 C CNN
 	1    9000 4600
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61BBA297
+P 8350 4800
+F 0 "#PWR0101" H 8350 4550 50  0001 C CNN
+F 1 "GND" H 8355 4627 50  0000 C CNN
+F 2 "" H 8350 4800 50  0001 C CNN
+F 3 "" H 8350 4800 50  0001 C CNN
+	1    8350 4800
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8800 4600 8700 4600
+	8350 4800 8350 4700
 Wire Wire Line
-	8700 4600 8700 4700
-Wire Wire Line
-	8800 4700 8700 4700
-Connection ~ 8700 4700
-Wire Wire Line
-	8700 4700 8700 4800
-Wire Wire Line
-	8800 4800 8700 4800
-Connection ~ 8700 4800
-Wire Wire Line
-	8700 4800 8700 4900
-Wire Wire Line
-	8800 4900 8700 4900
-Connection ~ 8700 4900
-Wire Wire Line
-	8700 4900 8700 5000
-Wire Wire Line
-	8800 5000 8700 5000
-Connection ~ 8700 5000
-Wire Wire Line
-	8700 5000 8700 5100
+	8800 4700 8350 4700
 $EndSCHEMATC
