@@ -361,10 +361,10 @@ dr2
 Wire Wire Line
 	8000 1500 8250 1500
 $Comp
-L power:GND #PWR026
+L power:GND #PWR025
 U 1 1 619D3DDE
 P 9200 1700
-F 0 "#PWR026" H 9200 1450 50  0001 C CNN
+F 0 "#PWR025" H 9200 1450 50  0001 C CNN
 F 1 "GND" H 9205 1527 50  0000 C CNN
 F 2 "" H 9200 1700 50  0001 C CNN
 F 3 "" H 9200 1700 50  0001 C CNN
@@ -385,10 +385,10 @@ dr3
 Wire Wire Line
 	9100 1500 9350 1500
 $Comp
-L power:GND #PWR030
+L power:GND #PWR027
 U 1 1 619D3DF1
 P 10250 1700
-F 0 "#PWR030" H 10250 1450 50  0001 C CNN
+F 0 "#PWR027" H 10250 1450 50  0001 C CNN
 F 1 "GND" H 10255 1527 50  0000 C CNN
 F 2 "" H 10250 1700 50  0001 C CNN
 F 3 "" H 10250 1700 50  0001 C CNN
@@ -409,10 +409,10 @@ dr4
 Wire Wire Line
 	10150 1500 10400 1500
 $Comp
-L power:GND #PWR027
+L power:GND #PWR026
 U 1 1 619D6D66
 P 9250 2650
-F 0 "#PWR027" H 9250 2400 50  0001 C CNN
+F 0 "#PWR026" H 9250 2400 50  0001 C CNN
 F 1 "GND" H 9255 2477 50  0000 C CNN
 F 2 "" H 9250 2650 50  0001 C CNN
 F 3 "" H 9250 2650 50  0001 C CNN
@@ -433,10 +433,10 @@ dr7
 Wire Wire Line
 	9150 2450 9400 2450
 $Comp
-L power:GND #PWR031
+L power:GND #PWR028
 U 1 1 619D6D79
 P 10300 2650
-F 0 "#PWR031" H 10300 2400 50  0001 C CNN
+F 0 "#PWR028" H 10300 2400 50  0001 C CNN
 F 1 "GND" H 10305 2477 50  0000 C CNN
 F 2 "" H 10300 2650 50  0001 C CNN
 F 3 "" H 10300 2650 50  0001 C CNN
@@ -576,17 +576,6 @@ Text GLabel 4700 6050 2    50   Input ~ 0
 ck_rst
 Wire Wire Line
 	4450 6050 4700 6050
-$Comp
-L Connector_Generic:Conn_02x08_Top_Bottom J18
-U 1 1 61A4395F
-P 7350 4600
-F 0 "J18" H 7400 5117 50  0000 C CNN
-F 1 "Conn_02x08_Top_Bottom" H 7400 5026 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 7350 4600 50  0001 C CNN
-F 3 "~" H 7350 4600 50  0001 C CNN
-	1    7350 4600
-	1    0    0    -1  
-$EndComp
 Text GLabel 7150 4300 0    50   Input ~ 0
 cv1
 Text GLabel 7150 4400 0    50   Input ~ 0
@@ -610,50 +599,39 @@ Text GLabel 7150 4800 0    50   Input ~ 0
 gt2
 Text GLabel 7150 4900 0    50   Input ~ 0
 md2
-Text GLabel 7650 4300 2    50   Input ~ 0
-cv3
-Text GLabel 7650 4400 2    50   Input ~ 0
-gt3
-Text GLabel 7650 4500 2    50   Input ~ 0
-md3
-Text GLabel 7650 4700 2    50   Input ~ 0
-cv4
-Text GLabel 7650 4800 2    50   Input ~ 0
-gt4
 Text GLabel 7650 4900 2    50   Input ~ 0
+cv3
+Text GLabel 7650 4800 2    50   Input ~ 0
+gt3
+Text GLabel 7650 4700 2    50   Input ~ 0
+md3
+Text GLabel 7650 4500 2    50   Input ~ 0
+cv4
+Text GLabel 7650 4400 2    50   Input ~ 0
+gt4
+Text GLabel 7650 4300 2    50   Input ~ 0
 md4
 Text GLabel 8800 4300 0    50   Input ~ 0
 ck_in
-Text GLabel 9300 4300 2    50   Input ~ 0
+Text GLabel 8800 4500 0    50   Input ~ 0
 ck_out
 Text GLabel 8800 4400 0    50   Input ~ 0
 ck_rst
-Text GLabel 8800 4600 0    50   Input ~ 0
+Text GLabel 9300 5000 2    50   Input ~ 0
 dr1
-Text GLabel 8800 4700 0    50   Input ~ 0
+Text GLabel 9300 4800 2    50   Input ~ 0
 dr2
-Text GLabel 8800 4900 0    50   Input ~ 0
-dr3
-Text GLabel 8800 5000 0    50   Input ~ 0
-dr4
-$Comp
-L Connector_Generic:Conn_02x08_Top_Bottom J23
-U 1 1 61A4479A
-P 9000 4600
-F 0 "J23" H 9050 5117 50  0000 C CNN
-F 1 "Conn_02x08_Top_Bottom" H 9050 5026 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 9000 4600 50  0001 C CNN
-F 3 "~" H 9000 4600 50  0001 C CNN
-	1    9000 4600
-	1    0    0    -1  
-$EndComp
 Text GLabel 9300 4600 2    50   Input ~ 0
+dr3
+Text GLabel 9300 4400 2    50   Input ~ 0
+dr4
+Text GLabel 9300 4900 2    50   Input ~ 0
 dr5
 Text GLabel 9300 4700 2    50   Input ~ 0
 dr6
-Text GLabel 9300 4900 2    50   Input ~ 0
+Text GLabel 9300 4500 2    50   Input ~ 0
 dr7
-Text GLabel 9300 5000 2    50   Input ~ 0
+Text GLabel 9300 4300 2    50   Input ~ 0
 dr8
 $Comp
 L power:GND #PWR017
@@ -705,70 +683,16 @@ Wire Wire Line
 Wire Wire Line
 	8050 5000 8050 5100
 $Comp
-L power:GND #PWR025
-U 1 1 61A7AB11
-P 8400 4900
-F 0 "#PWR025" H 8400 4650 50  0001 C CNN
-F 1 "GND" H 8405 4727 50  0000 C CNN
-F 2 "" H 8400 4900 50  0001 C CNN
-F 3 "" H 8400 4900 50  0001 C CNN
-	1    8400 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR024
-U 1 1 61A7BC62
-P 8400 4600
-F 0 "#PWR024" H 8400 4350 50  0001 C CNN
-F 1 "GND" H 8405 4427 50  0000 C CNN
-F 2 "" H 8400 4600 50  0001 C CNN
-F 3 "" H 8400 4600 50  0001 C CNN
-	1    8400 4600
+U 1 1 61A7AB11
+P 8700 5100
+F 0 "#PWR024" H 8700 4850 50  0001 C CNN
+F 1 "GND" H 8705 4927 50  0000 C CNN
+F 2 "" H 8700 5100 50  0001 C CNN
+F 3 "" H 8700 5100 50  0001 C CNN
+	1    8700 5100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR028
-U 1 1 61A7C516
-P 9700 4600
-F 0 "#PWR028" H 9700 4350 50  0001 C CNN
-F 1 "GND" H 9705 4427 50  0000 C CNN
-F 2 "" H 9700 4600 50  0001 C CNN
-F 3 "" H 9700 4600 50  0001 C CNN
-	1    9700 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR029
-U 1 1 61A7D05E
-P 9700 4900
-F 0 "#PWR029" H 9700 4650 50  0001 C CNN
-F 1 "GND" H 9705 4727 50  0000 C CNN
-F 2 "" H 9700 4900 50  0001 C CNN
-F 3 "" H 9700 4900 50  0001 C CNN
-	1    9700 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9300 4800 9700 4800
-Wire Wire Line
-	9700 4800 9700 4900
-Wire Wire Line
-	8800 4800 8400 4800
-Wire Wire Line
-	8400 4800 8400 4900
-Wire Wire Line
-	8400 4600 8400 4500
-Wire Wire Line
-	8400 4500 8800 4500
-Wire Wire Line
-	9300 4400 9700 4400
-Wire Wire Line
-	9700 4400 9700 4500
-Wire Wire Line
-	9300 4500 9700 4500
-Connection ~ 9700 4500
-Wire Wire Line
-	9700 4500 9700 4600
 $Comp
 L Connector:AudioJack2_SwitchT J2
 U 1 1 61AAFD60
@@ -1011,4 +935,50 @@ F 3 "~" H 9950 1500 50  0001 C CNN
 	1    9950 1500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J18
+U 1 1 61AE442C
+P 7350 4600
+F 0 "J18" H 7400 5117 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 7400 5026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 7350 4600 50  0001 C CNN
+F 3 "~" H 7350 4600 50  0001 C CNN
+	1    7350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J23
+U 1 1 61AE5894
+P 9000 4600
+F 0 "J23" H 9050 5117 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 9050 5026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 9000 4600 50  0001 C CNN
+F 3 "~" H 9000 4600 50  0001 C CNN
+	1    9000 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 4600 8700 4600
+Wire Wire Line
+	8700 4600 8700 4700
+Wire Wire Line
+	8800 4700 8700 4700
+Connection ~ 8700 4700
+Wire Wire Line
+	8700 4700 8700 4800
+Wire Wire Line
+	8800 4800 8700 4800
+Connection ~ 8700 4800
+Wire Wire Line
+	8700 4800 8700 4900
+Wire Wire Line
+	8800 4900 8700 4900
+Connection ~ 8700 4900
+Wire Wire Line
+	8700 4900 8700 5000
+Wire Wire Line
+	8800 5000 8700 5000
+Connection ~ 8700 5000
+Wire Wire Line
+	8700 5000 8700 5100
 $EndSCHEMATC
