@@ -19,7 +19,7 @@ U 1 1 619902A8
 P 2050 1450
 F 0 "J1" H 2082 1775 50  0000 C CNN
 F 1 "AudioJack2_SwitchT" H 2082 1684 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 2050 1450 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 2050 1450 50  0001 C CNN
 F 3 "~" H 2050 1450 50  0001 C CNN
 	1    2050 1450
 	1    0    0    -1  
@@ -49,17 +49,6 @@ cv1
 Wire Wire Line
 	2250 1450 2500 1450
 $Comp
-L Connector:AudioJack2_SwitchT J6
-U 1 1 619B9494
-P 3150 1450
-F 0 "J6" H 3182 1775 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 3182 1684 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 3150 1450 50  0001 C CNN
-F 3 "~" H 3150 1450 50  0001 C CNN
-	1    3150 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR06
 U 1 1 619B949A
 P 3450 1650
@@ -83,17 +72,6 @@ Text GLabel 3600 1450 2    50   Input ~ 0
 gt1
 Wire Wire Line
 	3350 1450 3600 1450
-$Comp
-L Connector:AudioJack2_SwitchT J11
-U 1 1 619B9C60
-P 4250 1450
-F 0 "J11" H 4282 1775 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 4282 1684 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 4250 1450 50  0001 C CNN
-F 3 "~" H 4250 1450 50  0001 C CNN
-	1    4250 1450
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR011
 U 1 1 619B9C66
@@ -119,17 +97,6 @@ md1
 Wire Wire Line
 	4450 1450 4700 1450
 $Comp
-L Connector:AudioJack2_SwitchT J2
-U 1 1 619BC7D8
-P 2050 2350
-F 0 "J2" H 2082 2675 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 2082 2584 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 2050 2350 50  0001 C CNN
-F 3 "~" H 2050 2350 50  0001 C CNN
-	1    2050 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR02
 U 1 1 619BC7DE
 P 2350 2550
@@ -153,17 +120,6 @@ Text GLabel 2500 2350 2    50   Input ~ 0
 cv2
 Wire Wire Line
 	2250 2350 2500 2350
-$Comp
-L Connector:AudioJack2_SwitchT J7
-U 1 1 619BC7EB
-P 3150 2350
-F 0 "J7" H 3182 2675 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 3182 2584 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 3150 2350 50  0001 C CNN
-F 3 "~" H 3150 2350 50  0001 C CNN
-	1    3150 2350
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 619BC7F1
@@ -189,17 +145,6 @@ gt2
 Wire Wire Line
 	3350 2350 3600 2350
 $Comp
-L Connector:AudioJack2_SwitchT J12
-U 1 1 619BC7FE
-P 4250 2350
-F 0 "J12" H 4282 2675 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 4282 2584 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 4250 2350 50  0001 C CNN
-F 3 "~" H 4250 2350 50  0001 C CNN
-	1    4250 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR012
 U 1 1 619BC804
 P 4550 2550
@@ -223,17 +168,6 @@ Text GLabel 4700 2350 2    50   Input ~ 0
 md2
 Wire Wire Line
 	4450 2350 4700 2350
-$Comp
-L Connector:AudioJack2_SwitchT J3
-U 1 1 619BDF2F
-P 2050 3250
-F 0 "J3" H 2082 3575 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 2082 3484 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 2050 3250 50  0001 C CNN
-F 3 "~" H 2050 3250 50  0001 C CNN
-	1    2050 3250
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 619BDF35
@@ -259,17 +193,6 @@ cv3
 Wire Wire Line
 	2250 3250 2500 3250
 $Comp
-L Connector:AudioJack2_SwitchT J8
-U 1 1 619BDF42
-P 3150 3250
-F 0 "J8" H 3182 3575 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 3182 3484 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 3150 3250 50  0001 C CNN
-F 3 "~" H 3150 3250 50  0001 C CNN
-	1    3150 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR08
 U 1 1 619BDF48
 P 3450 3450
@@ -293,17 +216,6 @@ Text GLabel 3600 3250 2    50   Input ~ 0
 gt3
 Wire Wire Line
 	3350 3250 3600 3250
-$Comp
-L Connector:AudioJack2_SwitchT J13
-U 1 1 619BDF55
-P 4250 3250
-F 0 "J13" H 4282 3575 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 4282 3484 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 4250 3250 50  0001 C CNN
-F 3 "~" H 4250 3250 50  0001 C CNN
-	1    4250 3250
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR013
 U 1 1 619BDF5B
@@ -329,17 +241,6 @@ md3
 Wire Wire Line
 	4450 3250 4700 3250
 $Comp
-L Connector:AudioJack2_SwitchT J4
-U 1 1 619BFD4E
-P 2050 4150
-F 0 "J4" H 2082 4475 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 2082 4384 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 2050 4150 50  0001 C CNN
-F 3 "~" H 2050 4150 50  0001 C CNN
-	1    2050 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR04
 U 1 1 619BFD54
 P 2350 4350
@@ -363,17 +264,6 @@ Text GLabel 2500 4150 2    50   Input ~ 0
 cv4
 Wire Wire Line
 	2250 4150 2500 4150
-$Comp
-L Connector:AudioJack2_SwitchT J9
-U 1 1 619BFD61
-P 3150 4150
-F 0 "J9" H 3182 4475 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 3182 4384 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 3150 4150 50  0001 C CNN
-F 3 "~" H 3150 4150 50  0001 C CNN
-	1    3150 4150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 619BFD67
@@ -399,17 +289,6 @@ gt4
 Wire Wire Line
 	3350 4150 3600 4150
 $Comp
-L Connector:AudioJack2_SwitchT J14
-U 1 1 619BFD74
-P 4250 4150
-F 0 "J14" H 4282 4475 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 4282 4384 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 4250 4150 50  0001 C CNN
-F 3 "~" H 4250 4150 50  0001 C CNN
-	1    4250 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR014
 U 1 1 619BFD7A
 P 4550 4350
@@ -433,17 +312,6 @@ Text GLabel 4700 4150 2    50   Input ~ 0
 md4
 Wire Wire Line
 	4450 4150 4700 4150
-$Comp
-L Connector:AudioJack2_SwitchT J16
-U 1 1 619D1325
-P 6750 1500
-F 0 "J16" H 6782 1825 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 6782 1734 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 6750 1500 50  0001 C CNN
-F 3 "~" H 6750 1500 50  0001 C CNN
-	1    6750 1500
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR018
 U 1 1 619D132B
@@ -469,17 +337,6 @@ dr1
 Wire Wire Line
 	6950 1500 7200 1500
 $Comp
-L Connector:AudioJack2_SwitchT J19
-U 1 1 619D1338
-P 7800 1500
-F 0 "J19" H 7832 1825 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 7832 1734 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 7800 1500 50  0001 C CNN
-F 3 "~" H 7800 1500 50  0001 C CNN
-	1    7800 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR022
 U 1 1 619D133E
 P 8100 1700
@@ -503,17 +360,6 @@ Text GLabel 8250 1500 2    50   Input ~ 0
 dr2
 Wire Wire Line
 	8000 1500 8250 1500
-$Comp
-L Connector:AudioJack2_SwitchT J21
-U 1 1 619D3DD8
-P 8900 1500
-F 0 "J21" H 8932 1825 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 8932 1734 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 8900 1500 50  0001 C CNN
-F 3 "~" H 8900 1500 50  0001 C CNN
-	1    8900 1500
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR026
 U 1 1 619D3DDE
@@ -539,17 +385,6 @@ dr3
 Wire Wire Line
 	9100 1500 9350 1500
 $Comp
-L Connector:AudioJack2_SwitchT J24
-U 1 1 619D3DEB
-P 9950 1500
-F 0 "J24" H 9982 1825 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 9982 1734 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 9950 1500 50  0001 C CNN
-F 3 "~" H 9950 1500 50  0001 C CNN
-	1    9950 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR030
 U 1 1 619D3DF1
 P 10250 1700
@@ -573,17 +408,6 @@ Text GLabel 10400 1500 2    50   Input ~ 0
 dr4
 Wire Wire Line
 	10150 1500 10400 1500
-$Comp
-L Connector:AudioJack2_SwitchT J22
-U 1 1 619D6D60
-P 8950 2450
-F 0 "J22" H 8982 2775 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 8982 2684 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 8950 2450 50  0001 C CNN
-F 3 "~" H 8950 2450 50  0001 C CNN
-	1    8950 2450
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR027
 U 1 1 619D6D66
@@ -609,17 +433,6 @@ dr7
 Wire Wire Line
 	9150 2450 9400 2450
 $Comp
-L Connector:AudioJack2_SwitchT J25
-U 1 1 619D6D73
-P 10000 2450
-F 0 "J25" H 10032 2775 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 10032 2684 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 10000 2450 50  0001 C CNN
-F 3 "~" H 10000 2450 50  0001 C CNN
-	1    10000 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR031
 U 1 1 619D6D79
 P 10300 2650
@@ -643,17 +456,6 @@ Text GLabel 10450 2450 2    50   Input ~ 0
 dr8
 Wire Wire Line
 	10200 2450 10450 2450
-$Comp
-L Connector:AudioJack2_SwitchT J17
-U 1 1 619DECD3
-P 6750 2450
-F 0 "J17" H 6782 2775 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 6782 2684 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 6750 2450 50  0001 C CNN
-F 3 "~" H 6750 2450 50  0001 C CNN
-	1    6750 2450
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR019
 U 1 1 619DECD9
@@ -679,17 +481,6 @@ dr5
 Wire Wire Line
 	6950 2450 7200 2450
 $Comp
-L Connector:AudioJack2_SwitchT J20
-U 1 1 619DECE6
-P 7800 2450
-F 0 "J20" H 7832 2775 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 7832 2684 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 7800 2450 50  0001 C CNN
-F 3 "~" H 7800 2450 50  0001 C CNN
-	1    7800 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR023
 U 1 1 619DECEC
 P 8100 2650
@@ -713,17 +504,6 @@ Text GLabel 8250 2450 2    50   Input ~ 0
 dr6
 Wire Wire Line
 	8000 2450 8250 2450
-$Comp
-L Connector:AudioJack2_SwitchT J5
-U 1 1 619FDF43
-P 2050 6050
-F 0 "J5" H 2082 6375 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 2082 6284 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 2050 6050 50  0001 C CNN
-F 3 "~" H 2050 6050 50  0001 C CNN
-	1    2050 6050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 619FDF49
@@ -749,17 +529,6 @@ ck_in
 Wire Wire Line
 	2250 6050 2500 6050
 $Comp
-L Connector:AudioJack2_SwitchT J10
-U 1 1 619FDF56
-P 3150 6050
-F 0 "J10" H 3182 6375 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 3182 6284 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 3150 6050 50  0001 C CNN
-F 3 "~" H 3150 6050 50  0001 C CNN
-	1    3150 6050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR010
 U 1 1 619FDF5C
 P 3450 6250
@@ -783,17 +552,6 @@ Text GLabel 3600 6050 2    50   Input ~ 0
 ck_out
 Wire Wire Line
 	3350 6050 3600 6050
-$Comp
-L Connector:AudioJack2_SwitchT J15
-U 1 1 619FDF69
-P 4250 6050
-F 0 "J15" H 4282 6375 50  0000 C CNN
-F 1 "AudioJack2_SwitchT" H 4282 6284 50  0000 C CNN
-F 2 "patchnut:Jack_3.5mm_ThonkiConn_TRS-PJ366ST_Vertical" H 4250 6050 50  0001 C CNN
-F 3 "~" H 4250 6050 50  0001 C CNN
-	1    4250 6050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR015
 U 1 1 619FDF6F
@@ -824,7 +582,7 @@ U 1 1 61A4395F
 P 7350 4600
 F 0 "J18" H 7400 5117 50  0000 C CNN
 F 1 "Conn_02x08_Top_Bottom" H 7400 5026 50  0000 C CNN
-F 2 "" H 7350 4600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 7350 4600 50  0001 C CNN
 F 3 "~" H 7350 4600 50  0001 C CNN
 	1    7350 4600
 	1    0    0    -1  
@@ -884,7 +642,7 @@ U 1 1 61A4479A
 P 9000 4600
 F 0 "J23" H 9050 5117 50  0000 C CNN
 F 1 "Conn_02x08_Top_Bottom" H 9050 5026 50  0000 C CNN
-F 2 "" H 9000 4600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 9000 4600 50  0001 C CNN
 F 3 "~" H 9000 4600 50  0001 C CNN
 	1    9000 4600
 	1    0    0    -1  
@@ -1011,4 +769,246 @@ Wire Wire Line
 Connection ~ 9700 4500
 Wire Wire Line
 	9700 4500 9700 4600
+$Comp
+L Connector:AudioJack2_SwitchT J2
+U 1 1 61AAFD60
+P 2050 2350
+F 0 "J2" H 2082 2675 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 2082 2584 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 2050 2350 50  0001 C CNN
+F 3 "~" H 2050 2350 50  0001 C CNN
+	1    2050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J3
+U 1 1 61AB02AC
+P 2050 3250
+F 0 "J3" H 2082 3575 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 2082 3484 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 2050 3250 50  0001 C CNN
+F 3 "~" H 2050 3250 50  0001 C CNN
+	1    2050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J4
+U 1 1 61AB093A
+P 2050 4150
+F 0 "J4" H 2082 4475 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 2082 4384 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 2050 4150 50  0001 C CNN
+F 3 "~" H 2050 4150 50  0001 C CNN
+	1    2050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J5
+U 1 1 61AB10A9
+P 2050 6050
+F 0 "J5" H 2082 6375 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 2082 6284 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 2050 6050 50  0001 C CNN
+F 3 "~" H 2050 6050 50  0001 C CNN
+	1    2050 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J10
+U 1 1 61AB170E
+P 3150 6050
+F 0 "J10" H 3182 6375 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 3182 6284 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3150 6050 50  0001 C CNN
+F 3 "~" H 3150 6050 50  0001 C CNN
+	1    3150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J15
+U 1 1 61AB1DFE
+P 4250 6050
+F 0 "J15" H 4282 6375 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 4282 6284 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 4250 6050 50  0001 C CNN
+F 3 "~" H 4250 6050 50  0001 C CNN
+	1    4250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J14
+U 1 1 61AB253D
+P 4250 4150
+F 0 "J14" H 4282 4475 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 4282 4384 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 4250 4150 50  0001 C CNN
+F 3 "~" H 4250 4150 50  0001 C CNN
+	1    4250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J9
+U 1 1 61AB2BFD
+P 3150 4150
+F 0 "J9" H 3182 4475 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 3182 4384 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3150 4150 50  0001 C CNN
+F 3 "~" H 3150 4150 50  0001 C CNN
+	1    3150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J8
+U 1 1 61AB31AD
+P 3150 3250
+F 0 "J8" H 3182 3575 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 3182 3484 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3150 3250 50  0001 C CNN
+F 3 "~" H 3150 3250 50  0001 C CNN
+	1    3150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J13
+U 1 1 61AB38BB
+P 4250 3250
+F 0 "J13" H 4282 3575 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 4282 3484 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 4250 3250 50  0001 C CNN
+F 3 "~" H 4250 3250 50  0001 C CNN
+	1    4250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J12
+U 1 1 61AB405C
+P 4250 2350
+F 0 "J12" H 4282 2675 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 4282 2584 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 4250 2350 50  0001 C CNN
+F 3 "~" H 4250 2350 50  0001 C CNN
+	1    4250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J7
+U 1 1 61AB47DE
+P 3150 2350
+F 0 "J7" H 3182 2675 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 3182 2584 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3150 2350 50  0001 C CNN
+F 3 "~" H 3150 2350 50  0001 C CNN
+	1    3150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J6
+U 1 1 61AB4F49
+P 3150 1450
+F 0 "J6" H 3182 1775 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 3182 1684 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3150 1450 50  0001 C CNN
+F 3 "~" H 3150 1450 50  0001 C CNN
+	1    3150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J11
+U 1 1 61AB581F
+P 4250 1450
+F 0 "J11" H 4282 1775 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 4282 1684 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 4250 1450 50  0001 C CNN
+F 3 "~" H 4250 1450 50  0001 C CNN
+	1    4250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J16
+U 1 1 61AB8C02
+P 6750 1500
+F 0 "J16" H 6782 1825 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 6782 1734 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6750 1500 50  0001 C CNN
+F 3 "~" H 6750 1500 50  0001 C CNN
+	1    6750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J17
+U 1 1 61AB97E0
+P 6750 2450
+F 0 "J17" H 6782 2775 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 6782 2684 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6750 2450 50  0001 C CNN
+F 3 "~" H 6750 2450 50  0001 C CNN
+	1    6750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J20
+U 1 1 61ABA1EE
+P 7800 2450
+F 0 "J20" H 7832 2775 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 7832 2684 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 7800 2450 50  0001 C CNN
+F 3 "~" H 7800 2450 50  0001 C CNN
+	1    7800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J19
+U 1 1 61ABAB91
+P 7800 1500
+F 0 "J19" H 7832 1825 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 7832 1734 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 7800 1500 50  0001 C CNN
+F 3 "~" H 7800 1500 50  0001 C CNN
+	1    7800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J21
+U 1 1 61ABB6C7
+P 8900 1500
+F 0 "J21" H 8932 1825 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 8932 1734 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 8900 1500 50  0001 C CNN
+F 3 "~" H 8900 1500 50  0001 C CNN
+	1    8900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J22
+U 1 1 61ABC223
+P 8950 2450
+F 0 "J22" H 8982 2775 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 8982 2684 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 8950 2450 50  0001 C CNN
+F 3 "~" H 8950 2450 50  0001 C CNN
+	1    8950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J25
+U 1 1 61ABCCBE
+P 10000 2450
+F 0 "J25" H 10032 2775 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 10032 2684 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 10000 2450 50  0001 C CNN
+F 3 "~" H 10000 2450 50  0001 C CNN
+	1    10000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J24
+U 1 1 61ABD73D
+P 9950 1500
+F 0 "J24" H 9982 1825 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 9982 1734 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 9950 1500 50  0001 C CNN
+F 3 "~" H 9950 1500 50  0001 C CNN
+	1    9950 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
