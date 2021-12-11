@@ -617,21 +617,21 @@ Text GLabel 8800 4800 0    50   Input ~ 0
 ck_out
 Text GLabel 8800 5000 0    50   Input ~ 0
 ck_rst
-Text GLabel 8800 4600 0    50   Input ~ 0
-dr1
-Text GLabel 8800 4400 0    50   Input ~ 0
-dr2
 Text GLabel 9300 4300 2    50   Input ~ 0
-dr3
-Text GLabel 9300 4500 2    50   Input ~ 0
-dr4
-Text GLabel 8800 4500 0    50   Input ~ 0
-dr5
-Text GLabel 8800 4300 0    50   Input ~ 0
-dr6
+dr1
 Text GLabel 9300 4400 2    50   Input ~ 0
-dr7
+dr2
+Text GLabel 9300 4500 2    50   Input ~ 0
+dr3
 Text GLabel 9300 4600 2    50   Input ~ 0
+dr4
+Text GLabel 8800 4600 0    50   Input ~ 0
+dr5
+Text GLabel 8800 4500 0    50   Input ~ 0
+dr6
+Text GLabel 8800 4400 0    50   Input ~ 0
+dr7
+Text GLabel 8800 4300 0    50   Input ~ 0
 dr8
 $Comp
 L power:GND #PWR017
